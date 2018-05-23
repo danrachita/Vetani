@@ -1,0 +1,26 @@
+[Unit]
+Description=VET's distributed currency daemon
+After=network.target
+
+[Service]
+User=vetani
+Group=vetani
+
+Type=forking
+PIDFile=/var/lib/vetanid/vetanid.pid
+
+ExecStart=/usr/bin/vetanid -daemon -pid=/var/lib/vetanid/vetanid.pid \
+          -conf=/etc/vetani/vetani.conf -datadir=/var/lib/vetanid
+
+ExecStop=-/usr/bin/vetani-cli -conf=/etc/vetani/vetani.conf \
+         -datadir=/var/lib/vetanid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

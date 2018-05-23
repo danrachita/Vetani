@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VET
+Comment=VET P2P Cryptocurrency
+Exec=vetani-qt %u
+Terminal=false
+Type=Application
+Icon=vetani128
+MimeType=x-scheme-handler/vetani;
+Categories=Office;Finance;
+Name[en_US]=vetani-qt.desktop

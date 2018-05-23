@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/vetani_bg.qm</file>
+        <file alias="de">locale/vetani_de.qm</file>
+        <file alias="en">locale/vetani_en.qm</file>
+        <file alias="es">locale/vetani_es.qm</file>
+        <file alias="fi">locale/vetani_fi.qm</file>
+        <file alias="fr">locale/vetani_fr.qm</file>
+        <file alias="it">locale/vetani_it.qm</file>
+        <file alias="ja">locale/vetani_ja.qm</file>
+        <file alias="pl">locale/vetani_pl.qm</file>
+        <file alias="pt">locale/vetani_pt.qm</file>
+        <file alias="ru">locale/vetani_ru.qm</file>
+        <file alias="sk">locale/vetani_sk.qm</file>
+        <file alias="sv">locale/vetani_sv.qm</file>
+        <file alias="vi">locale/vetani_vi.qm</file>
+        <file alias="zh_CN">locale/vetani_zh_CN.qm</file>
+        <file alias="zh_TW">locale/vetani_zh_TW.qm</file>
+    </qresource>
+</RCC>
