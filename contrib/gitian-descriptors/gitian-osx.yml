@@ -1,5 +1,5 @@
 ---
-name: "vetani-osx-2.3"
+name: "vetani-osx-2.0"
 enable_cache: true
 suites:
 - "trusty"
