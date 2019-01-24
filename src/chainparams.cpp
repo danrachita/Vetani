@@ -137,8 +137,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xcc6c39ca602a8108e196058416597aa2e53c1a337d702e00982f859961b6c316"));
         
 
-        vSeeds.push_back(CDNSSeedData("seed1.vetani.me", "seed1.vetani.me"));
-        vSeeds.push_back(CDNSSeedData("seed2.vetani.me", "seed2.vetani.me"));
+        vSeeds.push_back(CDNSSeedData("104.207.138.65", "104.207.138.65"));
+        vSeeds.push_back(CDNSSeedData("108.61.87.12", "108.61.87.12"));
+        vSeeds.push_back(CDNSSeedData("144.202.63.36", "144.202.63.36"));
+	vSeeds.push_back(CDNSSeedData("149.28.42.9", "149.28.42.9"));
+	vSeeds.push_back(CDNSSeedData("207.148.12.23", "207.148.12.23"));
+	vSeeds.push_back(CDNSSeedData("45.76.24.100", "45.76.24.100"));
+	vSeeds.push_back(CDNSSeedData("45.77.218.101", "45.77.218.101"));
         //vFixedSeeds.clear();
         //vSeeds.clear();
 
